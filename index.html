@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>BPS Billboard</title>
+    </head>
+
+    <body>
+<!--Carousel Wrapper-->
+<div id="video-carousel-example" class="carousel slide" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+          <li data-target="#video-carousel-example" data-slide-to="1"></li>
+          <li data-target="#video-carousel-example" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <video class="video-fluid" autoplay>
+              <source src="./images/PhishingEmails.mp4" type="video/mp4"/>
+            </video>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-80" src="./images/1.svg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+                <img class="d-block w-80" src="./images/2.svg" alt="Third slide">
+          </div>
+        </div>
+        <!--/.Slides-->
+      </div>
+      <!--Carousel Wrapper-->
+
+      <div class="weather">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/31d76n106d49/el-paso/?unit=us" data-label_1="EL PASO" data-label_2="WEATHER" data-font="Roboto" data-icons="Climacons Animated" data-theme="clear" >EL PASO WEATHER</a>
+            <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+        </div>      
+
+        
+        <script src="./main.js"></script>
+
+        <div class = "news">
+<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="109351/"></script> <!-- end feedwind code -->
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

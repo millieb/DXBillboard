@@ -1,0 +1,11 @@
+.carousel-item{
+    height: 85vh;
+}
+
+.news {
+    width: 19.7%;
+    height: 85vh;
+    position: relative;
+    bottom: 600pt;
+    left: 750pt;
+}
