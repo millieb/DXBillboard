@@ -3,6 +3,12 @@
 /*    transition-duration: 125s; */
 }
 
+.carousel-inner > .item {
+    -webkit-transition: -webkit-transform 15s ease-in-out !important;
+    -o-transition: -o-transform 15s ease-in-out !important;
+    transition: transform 15s ease-in-out !important; 
+}
+
 .news {
     width: 19.7%;
     height: 85vh;
