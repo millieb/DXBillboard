@@ -3,9 +3,9 @@
 }
 
 .carousel-inner > .item {
-    -webkit-transition: -webkit-transform 15s ease-in-out !important;
-    -o-transition: -o-transform 15s ease-in-out !important;
-    transition: transform 15s ease-in-out !important; 
+    -webkit-transition: -webkit-transform .70s ease-in-out !important;
+    -o-transition: -o-transform .70s ease-in-out !important;
+    transition: transform .70s ease-in-out !important;
 }
 
 .news {
